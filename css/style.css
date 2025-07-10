@@ -44,8 +44,7 @@ button {
 }
 
 button:hover {
-  background-color: #d1cb30;
-  border: 2px solid #a9a8d8;
+  background-color: rgb(149, 210, 244);
   color: white;
   transition: 0.4s;
 }
@@ -224,6 +223,9 @@ body {
   box-shadow: 3px 3px 2px gray;
   font-size: 16px;
   margin-bottom: 20px;
+}
+.focus-btn button:hover{
+    background-color: rgb(149, 210, 244);
 }
 .focus-image {
   border-radius: 40px;
