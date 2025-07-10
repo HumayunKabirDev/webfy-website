@@ -9,8 +9,8 @@
   margin: 0 auto;
 }
 
-nav a{
-    text-decoration: none;
+nav a {
+  text-decoration: none;
 }
 /* Common Style Start */
 /* Font Style */
@@ -40,15 +40,15 @@ button {
   font-weight: 800;
 }
 
-button:hover{
-    background-color: transparent;
-    border: 2px solid #4e47ff;
-    color: #4e47ff;
-    transition: .4s;
+button:hover {
+  background-color: #d1cb30;
+  border: 2px solid #a9a8d8;
+  color: white;
+  transition: 0.4s;
 }
 /* Common Style Start */
 
-/* Nav Start */
+/* Nav and Header Start */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -64,14 +64,125 @@ button:hover{
   justify-content: center;
   align-items: center;
 }
-.header-content{
-    width: 905px;
-    margin: 0 auto;
-    margin-top: 150px;
+.header-content {
+  width: 905px;
+  margin: 0 auto;
+  margin-top: 150px;
 }
 .header-content h1 {
+  color: #252432;
   font-size: 65px;
   font-weight: 800;
   text-align: center;
 }
-/* Nav End */
+body{
+    background-color: #fafafaf3;
+}
+/* Nav and Header End */
+/* Action Part start */
+.main-side{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto;
+    align-items: center;
+}
+.left-side h3 {
+    color: #252432;
+    font-size: 42px;
+    font-weight: 800;
+
+}
+.left-side p{
+    color: #878798;
+    font-size: 24px;
+    width: 510px;
+    margin-top: 20px;
+}
+.right-side img {
+  border-radius: 40px;
+}
+/* Action Part End */
+
+/* Productive Users Part Start */
+.Productive-users{
+    background-color: #dfdfff;
+    border-radius: 20px;
+    padding: 50px 75px;
+}
+.Productive-users h3{
+    font-size: 38px;
+    text-align: center;
+}
+
+.reviews{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   margin-top: 50px;
+}
+
+.review p{
+    color: #878798;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* Productive Users Part End */
+
+/* Users’ Feedback Section Start */
+
+.users-Feedback{
+    padding: 120px 0;
+}
+.users-Feedback h3{
+    font-size: 42px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.users-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.users-child{
+    padding: 40px;
+    background-color: #ffffff;
+    width: 365px;
+    border-radius: 10px;
+}
+.users-child h4{
+   font-size: 24px;
+   font-weight: 700;
+   margin-top: 20px;
+   margin-bottom: 15px;
+   color: #252432;
+}
+.users-child p{
+ color: #878798;
+}
+
+.star-icon{
+    display: flex;
+    gap: 8px;
+    
+}
+
+.user-review img{
+    border-radius: 50%;
+}
+
+.user-review{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+.user-review h5{
+   font-size: 18px;
+   font-weight: 600;
+   color: #878798;
+}
+/* Users’ Feedback Section End */
+
