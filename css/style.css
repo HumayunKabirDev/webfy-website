@@ -21,6 +21,13 @@ a {
   font-optical-sizing: auto;
   font-style: normal;
 }
+.roboto-font{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 /* Font Style */
 
 header {
@@ -121,7 +128,11 @@ body {
   align-items: center;
   margin-top: 50px;
 }
-
+.review h3{
+    font-size: 90px;
+    font-weight: 900;
+    color: #4e47ff;
+}
 .review p {
   color: #878798;
   font-size: 20px;
